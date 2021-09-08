@@ -1,0 +1,29 @@
+@import '~antd/dist/antd.css';
+
+.select-box{
+  width: 200px;
+  margin: 30px auto;
+}
+
+.App .ant-select .ant-select-arrow{
+  top: 46%;
+  right: 6px;
+  width: 16px;
+  height: 16px;
+  font-size: 16px;
+  color: #888;
+}
+.App .ant-select .ant-select-arrow .icon-search{
+  display: none;
+  position: relative;
+  right: 2px;
+  top: -2px;
+}
+.App .ant-select.ant-select-show-search.ant-select-open .ant-select-arrow .icon-select-arrow{
+  display: none;
+}
+.App .ant-select.ant-select-show-search.ant-select-open .ant-select-arrow .icon-search{
+  display: inline-block;
+  position: relative;
+  top: -1px;
+}
