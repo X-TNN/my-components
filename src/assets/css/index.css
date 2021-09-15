@@ -49,3 +49,14 @@
 .ant-select-clear:hover .icon-input-close {
   color: #00CCD9;
 }
+.selectNodata {
+  width: 100%;
+  padding: 16px;
+  font-size: 12px;
+  text-align: center;
+}
+.selectLoading {
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+}
